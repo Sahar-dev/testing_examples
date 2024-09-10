@@ -1,0 +1,9 @@
+# MAke sure to download pip install fastapi pytest adn pip install requests
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/greet/{name}")
+def greet(name: str):
+    return {"message": f"Hello, {name}!"}
