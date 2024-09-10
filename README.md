@@ -2,6 +2,7 @@
 
 This repository contains examples of using different Python testing frameworks and libraries. Each folder showcases a specific approach to testing, including unit tests, integration tests, API mocking, and performance tests. These examples demonstrate how to effectively test applications in real-world scenarios using the tools and strategies outlined.
 ## Structure of the folder
+```bash
 ├───fastapi
 │   ├───main.py                # Example FastAPI app
 │   └───test_main.py           # Tests for FastAPI app using pytest
@@ -22,7 +23,7 @@ This repository contains examples of using different Python testing frameworks a
     ├───test_calculator_pytest.py      # Testing using pytest
     └───test_calculator_unittest.py    # Testing using unittest
 
-
+```
 ## Libraries and Tools Used
 
 - **pytest**: A framework that makes building simple and scalable test cases easy.
