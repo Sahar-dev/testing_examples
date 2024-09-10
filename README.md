@@ -1,6 +1,27 @@
 # Python Testing Frameworks and Examples
 
 This repository contains examples of using different Python testing frameworks and libraries. Each folder showcases a specific approach to testing, including unit tests, integration tests, API mocking, and performance tests. These examples demonstrate how to effectively test applications in real-world scenarios using the tools and strategies outlined.
+## Structure of the folder
+├───fastapi
+│   ├───main.py                # Example FastAPI app
+│   └───test_main.py           # Tests for FastAPI app using pytest
+│
+├───Integration                # Placeholder for integration testing
+│
+├───locust
+│   └───hello.py               # Performance testing using Locust
+│
+├───Mocking_External_APIs
+│   ├───scraper.py             # Example scraper
+│   └───test_scraper.py        # Mocking external API requests using pytest
+│
+└───unittest
+    ├───calculator.py          # Example calculator module
+    ├───test_calculator_hypothesis.py  # Testing using hypothesis
+    ├───test_calculator_nose2.py       # Testing using nose2
+    ├───test_calculator_pytest.py      # Testing using pytest
+    └───test_calculator_unittest.py    # Testing using unittest
+
 
 ## Libraries and Tools Used
 
